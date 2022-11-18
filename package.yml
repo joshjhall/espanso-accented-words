@@ -1,6 +1,7 @@
 # Accented Words
 
 matches:
+
   - trigger: "Champs-Elysees"
     replace: "Champs-Élysées"
     propagate_case: true
@@ -20,11 +21,26 @@ matches:
     replace: "Québec"
     propagate_case: true
     word: true
+    
+  - trigger: "aide-memoire" # added
+    replace: "aide-mémoire"
+    propagate_case: true
+    word: true    
 
   - trigger: "angstrom"
     replace: "ångström"
     propagate_case: true
     word: true
+    
+  - trigger: "apres-ski" # added
+    replace: "après-ski"
+    propagate_case: true
+    word: true
+    
+  - trigger: "blase" # added
+    replace: "blasé"
+    propagate_case: true
+    word: true    
 
   - trigger: "brulee"
     replace: "brûlée"
@@ -35,6 +51,11 @@ matches:
     replace: "café"
     propagate_case: true
     word: true
+    
+  - trigger: "cafetiere" # added
+    replace: "cafétiere"
+    propagate_case: true
+    word: true    
 
   - trigger: "chateau"
     replace: "château"
@@ -45,6 +66,11 @@ matches:
     replace: "cliché"
     propagate_case: true
     word: true
+    
+  - trigger: "communique" # added
+    replace: "communiqué"
+    propagate_case: true
+    word: true    
 
   - trigger: "creme"
     replace: "crème"
