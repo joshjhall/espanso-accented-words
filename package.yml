@@ -222,11 +222,31 @@ matches:
     replace: "français"
     propagate_case: true
     word: true
-
+    
+  - trigger: "gateau" # added
+    replace: "gâteau"
+    propagate_case: true
+    # word: true # to include "gâteaux"
+    
+  - trigger: "glace" # added
+    replace: "glacé'"
+    propagate_case: true  
+    word: true  
+    
   - trigger: "habitue"
     replace: "habitué"
     propagate_case: true
     word: true
+    
+  - trigger: "hotel" # added
+    replace: "hôtel"
+    propagate_case: true
+    word: true
+    
+  - trigger: "hors d'oeuvre'" # added
+    replace: "hors d'œuvre"
+    propagate_case: true
+    word: true        
 
   - trigger: "ingenue"
     replace: "ingénue"
@@ -235,6 +255,16 @@ matches:
 
   - trigger: "jalapeno"
     replace: "jalapeño"
+    propagate_case: true
+    word: true
+    
+  - trigger: "macrame"
+    replace: "macramé"
+    propagate_case: true
+    word: true
+    
+  - trigger: "maitre" # added
+    replace: "maître"
     propagate_case: true
     word: true
 
@@ -272,14 +302,59 @@ matches:
     replace: "née"
     propagate_case: true
     word: true
+    
+  - trigger: "negligee" # added
+    replace: "negligée'"
+    propagate_case: true
+    word: true    
 
   - trigger: "ole" # "'" not needed
     replace: "olé"
     propagate_case: true
     word: true
-
+    
+  - trigger: "papier-mache" # added
+    replace: "papier-mâché"
+    propagate_case: true
+    word: true
+    
+  - trigger: "piece de resistance" # added
+    replace: "pièce de résistance"
+    propagate_case: true
+    word: true
+    
+  - trigger: "pied-a-terre" # added
+    replace: "pied-à-terre"
+    propagate_case: true
+    word: true
+    
+  - trigger: "pinata" # added
+    replace: "piñata"
+    propagate_case: true
+    word: true
+    
+  - trigger: "precis" # added
+    replace: "précis"
+    propagate_case: true
+    word: true
+    
+  - trigger: "premiere" # added
+    replace: "première"
+    propagate_case: true
+    word: true                
+            
   - trigger: "protege"
     replace: "protégé"
+    propagate_case: true
+    word: true
+    
+  - trigger: "puree"
+    replace: "purée"
+    propagate_case: true
+    word: true
+    
+  - trigger: "raison d'etre"
+    replace: "raison d'être"
     propagate_case: true
     word: true
 
@@ -306,7 +381,7 @@ matches:
   - trigger: "senor"
     replace: "señor"
     propagate_case: true
-    word: true
+    # word: true # removed to include "señora" and "señorita"
 
   - trigger: "smorgasbord"
     replace: "smörgåsbord"
@@ -327,9 +402,19 @@ matches:
     replace: "soupçon"
     propagate_case: true
     word: true
+    
+  - trigger: "tete-a-tete"
+    replace: "tête-a-tête"
+    propagate_case: true
+    word: true
 
   - trigger: "touche" # "'" not needed
     replace: "touché"
+    propagate_case: true
+    word: true
+    
+  - trigger: "vis a vis"
+    replace: "vis à vis"
     propagate_case: true
     word: true
 
