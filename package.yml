@@ -31,7 +31,7 @@ matches:
     propagate_case: true
     word: true
 
-  - trigger: "cafe'"
+  - trigger: "cafe" # "'" not needed
     replace: "café"
     propagate_case: true
     word: true
@@ -124,7 +124,7 @@ matches:
   - trigger: "fiance"
     replace: "fiancé"
     propagate_case: true
-    word: true
+    # word: true # removed to allow "fiancée"
 
   - trigger: "flambe"
     replace: "flambé"
@@ -181,12 +181,12 @@ matches:
     propagate_case: true
     word: true
 
-  - trigger: "nee'"
+  - trigger: "nee" # "'" not needed
     replace: "née"
     propagate_case: true
     word: true
 
-  - trigger: "ole'"
+  - trigger: "ole" # "'" not needed
     replace: "olé"
     propagate_case: true
     word: true
@@ -231,7 +231,7 @@ matches:
     propagate_case: true
     word: true
 
-  - trigger: "souffle'"
+  - trigger: "souffle" # "'" not needed
     replace: "soufflé"
     propagate_case: true
     word: true
@@ -241,7 +241,7 @@ matches:
     propagate_case: true
     word: true
 
-  - trigger: "touche'"
+  - trigger: "touche" # "'" not needed
     replace: "touché"
     propagate_case: true
     word: true
