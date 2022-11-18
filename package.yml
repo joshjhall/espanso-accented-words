@@ -1,4 +1,5 @@
 # Accented Words
+# Various additions from https://en-academic.com/dic.nsf/enwiki/3894487#sel=9:12,9:16
 
 matches:
 
@@ -32,6 +33,16 @@ matches:
     propagate_case: true
     word: true
     
+  - trigger: "anime" # added
+    replace: "animé"
+    propagate_case: true
+    word: true    
+    
+  - trigger: "aperitif" # added
+    replace: "apéritif"
+    propagate_case: true
+    word: true    
+    
   - trigger: "apres-ski" # added
     replace: "après-ski"
     propagate_case: true
@@ -39,6 +50,11 @@ matches:
     
   - trigger: "blase" # added
     replace: "blasé"
+    propagate_case: true
+    word: true
+    
+  - trigger: "bric-a-brac" # added
+    replace: "bric-à-brac"
     propagate_case: true
     word: true    
 
@@ -55,12 +71,27 @@ matches:
   - trigger: "cafetiere" # added
     replace: "cafétiere"
     propagate_case: true
+    word: true
+    
+  - trigger: "canape" # added
+    replace: "canapé"
+    propagate_case: true
+    word: true    
+    
+  - trigger: "celebre" # added
+    replace: "célèbre"
+    propagate_case: true
     word: true    
 
   - trigger: "chateau"
     replace: "château"
     propagate_case: true
     word: true
+    
+  - trigger: "charge d'affaires" # added
+    replace: "chargé d'affaires"
+    propagate_case: true
+    word: true    
 
   - trigger: "cliche"
     replace: "cliché"
@@ -69,6 +100,16 @@ matches:
     
   - trigger: "communique" # added
     replace: "communiqué"
+    propagate_case: true
+    word: true
+    
+  - trigger: "consomme" # added
+    replace: "consommé"
+    propagate_case: true
+    word: true
+    
+  - trigger: "creche" # added
+    replace: "crèche"
     propagate_case: true
     word: true    
 
@@ -91,6 +132,16 @@ matches:
     replace: "débutante"
     propagate_case: true
     word: true
+    
+  - trigger: "decor" # added
+    replace: "décor"
+    propagate_case: true
+    word: true
+    
+  - trigger: "discoteque" # added
+    replace: "discotèque"
+    propagate_case: true
+    word: true    
 
   - trigger: "detente"
     replace: "détente"
@@ -126,6 +177,11 @@ matches:
     replace: "entrée"
     propagate_case: true
     word: true
+    
+  - trigger: "entrecote" # added
+    replace: "entrecôte"
+    propagate_case: true
+    word: true    
 
   - trigger: "epee"
     replace: "épée"
@@ -156,6 +212,11 @@ matches:
     replace: "flambé"
     propagate_case: true
     word: true
+    
+  - trigger: "folie a deux"
+    replace: "folie à deux"
+    propagate_case: true
+    word: true    
 
   - trigger: "francais"
     replace: "français"
