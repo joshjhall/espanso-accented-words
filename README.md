@@ -14,7 +14,7 @@ Just type the word. Words that may or may not require accents in English will on
 
 * cafe' > café
 * rose' > rosé
-* resume' > résumé
+* resume' > resumé
 * angstrom > ångström
 * Champs-Elysees > Champs-Élysées
 * Francois > François

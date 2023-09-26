@@ -1079,7 +1079,7 @@ matches:
     word: true
 
   - trigger: "resume"
-    replace: "résumé"
+    replace: "resumé"
     propagate_case: true
     word: true
 
