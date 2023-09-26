@@ -2,7 +2,6 @@
 # Various additions from https://en-academic.com/dic.nsf/enwiki/3894487#sel=9:12,9:16
 
 matches:
-
   - trigger: "a bas"
     replace: "à bas"
     propagate_case: true
@@ -1252,4 +1251,3 @@ matches:
     replace: "zoölogy"
     propagate_case: true
     word: true
-
